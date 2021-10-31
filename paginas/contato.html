@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!--Link para a reset-->
+    <link rel="stylesheet" href="../css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <!--Link para a CSS estilo-->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!--Link para a CSS formulario -->
+    <link rel="stylesheet" href="../css/formulario.css">
+    <!--Link para a favicon [icon de menu] -->
+    <link rel="icon" href="../projetoDeInformatica/img/favicon.png" sizes="16x16" type="image/png">
+</head>
+
+<body>
+    <!-- Conteúdo -->
+
+    <div>
+        <h1>Bem vindo ao site!<br> Preencha o formulário abaixo que em breve retornaremos a sua mensagem.</h1>
+    </div>
+    <br><br>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="Nome">Nome:</label>
+                <input type="text" name="nome" required>
+            </div>
+            <div class="campo">
+                <label for="Email">Email:</label>
+                <input type="email" name="email" placeholder="Seu melhor e-mail aqui" required>
+                <div class="campo"><br>
+                    <label for="assunto"> <strong>Assunto</strong></label>
+                    <select id="assunto">
+                        <option selected disabled value=""> Selecione</option>
+                        <option>Orçamento</option>
+                        <option>Elogio</option>
+                        <option>Reclamação</option>
+                        </select>
+                </div>
+                <div class="campo">
+                    <textarea placeholder="Digite aqui a sua mensagem" rowns="5" cols="50" required></textarea><br>
+
+                </div>
+                <div>
+                    <button class="botao" type="submit">Enviar</button> </a>
+                    <a href="../index.html"> <button class="botao">Voltar</button> </a>
+                </div>
+        </fieldset>
+    </form>
+
+    <footer class="footer">
+        <div class="footer">
+            <i class="fas fa-house-user"></i> © Copyright 2021 wmsbot - Todos os direitos reservados. Este site foi criado APENAS com finalidade de APRENDIZADO de HTML - CSS - JAVASCRIPT
+        </div>
+        <script src="https://kit.fontawesome.com/0af44f00d2.js" crossorigin="anonymous"></script>
+    </footer>
+
+</body>
+
+</html>
