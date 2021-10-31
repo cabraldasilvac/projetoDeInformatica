@@ -1,0 +1,22 @@
+
+/* ul - Selecionar os marcadores de item da lista 
+Valor	Descrição
+disc	Define o marcado padrão de lista (Círculo preto)
+circle	Define um circulo vazio como marcador da lista
+square	Define um quadrado preto como marcado da lista
+none	Define a lista sem marcadores
+Nota de aula: Se nenhuma propriedade for declarada o marcador
+definido será o padrão (Círculo Preto).
+*/
+
+
+
+/* O atributo type da tag <ol> define o tipo do marcador do item de lista:
+
+Tipo	Descrição
+type="1"	A lista será numerada com números (Padrão)
+type="A"	A lista será organizada com o alfabeto em maiúsculo
+type="a"	A lista será organizada com o alfabeto em manúsculo
+type="I"	A lista será organizada com letras romanas em maiúsculo
+type="i"	A lista será organizada com letras romanas em manúsculo
+*/

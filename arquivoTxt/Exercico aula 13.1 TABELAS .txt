@@ -1,0 +1,10 @@
+
+
+Resumo - Algumas Tags de tabela HTML
+
+Tag                  Descrição
+<table>              Define a tabela
+<th>                 Define um cabeçalho na tabela
+<tr>                 Define uma linha na tabela
+<td>                 Define uma célula na tabela
+<caption>            Define uma legenda na tabela
