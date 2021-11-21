@@ -1,0 +1,48 @@
+Dimensionar conteúdo para a
+janela de exibição (viewport):
+
+
+Os usuários podem rolar sites na vertical, tanto em computadores quanto em dispositivos móveis - mas não na horizontal!
+Porém, se o usuário for forçado a rolar horizontalmente ou diminuir o zoom, para se  ver toda a página da Web, isso resultará em uma má experiência do usuário.
+Algumas regras adicionais a serem seguidas:
+1. NÃO use elementos grandes de largura fixa - Por exemplo:  se uma imagem for exibida em uma largura maior que a janela de exibição, isso poderá fazer com que a janela de rolagem role horizontalmente. Lembre de ajustar esse conteúdo para caber na largura da janela de exibição.
+2. NÃO permita que o conteúdo confie em uma largura de janela de exibição específica para renderizar bem - Como as dimensões e a largura da tela em pixels CSS variam muito entre os dispositivos, o conteúdo não deve depender de uma largura de janela de exibição específica para renderizar bem.
+Note de aula: Renderizar é o ato de compilar e obter o produto final de um processamento digital.
+3. Use consultas de mídia CSS para aplicar estilos diferentes a telas pequenas e grandes - A configuração de larguras CSS absolutas grandes para os elementos da página fará com que o elemento seja muito amplo para a viewport em um dispositivo menor. 
+Considere porém,  usar valores de largura relativa, como width: 100%. Além disso, fique atento(a)  ao usar grandes valores de posicionamento absoluto. Isso pode fazer com que o elemento fique fora da janela de exibição em dispositivos pequenos.
+
+
+
+
+**************************************
+Existem várias telas e dispositivos com diferentes alturas e larguras, por isso é difícil criar um ponto de interrupção exato para cada dispositivo. Para simplificar, você pode segmentar cinco grupos:
+Exemplo:
+/* Dispositivos muito pequenos (celular, 600px e menor) */
+@media only screen and (max-width: 600px) {...}
+
+/* Dispositivos pequenos (tablets e celulares maiores, 600px ou mais) */
+@media only screen and (min-width: 600px) {...}
+
+/* Dispositivos médios (tablets maiores, 768px ou mais) */
+@media only screen and (min-width: 768px) {...}
+
+/* Computador médio (Notebooks/Computador de Mesa, 992px ou mais) */
+@media only screen and (min-width: 992px) {...}
+
+/* Monitor muito grande (Monitor Grande, TV, 1200px ou mais) */
+@media only screen and (min-width: 1200px) {...}
+
+
+
+***************************************
+Orientação: Retrato ou Paisagem
+As consultas de mídia também podem ser usadas para alterar o layout de uma página, dependendo da orientação do navegador.
+Você pode ter um conjunto de propriedades do CSS que serão aplicadas apenas quando a janela do navegador for maior que sua altura, a chamada orientação "Paisagem":
+Exemplo:
+A página da Web terá um plano de fundo azul claro se a orientação estiver no modo paisagem:
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}
+

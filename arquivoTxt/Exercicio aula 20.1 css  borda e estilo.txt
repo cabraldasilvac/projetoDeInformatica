@@ -1,0 +1,14 @@
+border-style
+A propriedade border-style especifica que tipo de borda a ser exibida.
+Os seguintes valores são permitidos:
+dotted - Define uma borda pontilhada 
+dashed - Define uma borda tracejada 
+solid - Define uma borda sólida 
+double - Define uma borda dupla 
+groove- Define uma borda ranhurada em 3D. O efeito depende do valor da cor da borda 
+ridge- Define uma borda sulcada em 3D. O efeito depende do valor da cor da borda
+ inset- Define uma borda inserida em 3D. O efeito depende do valor da cor da borda 
+outset- Define uma borda inicial 3D. O efeito depende do valor da cor da borda 
+none - Define sem borda 
+hidden - Define uma borda oculta
+A propriedade border-style pode ter de um a quatro valores (para a borda superior, borda direita, borda inferior e borda esquerda).

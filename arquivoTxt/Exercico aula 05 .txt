@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Document</title>
+</head>
+<body>
+<!-- Conteúdo -->
+<h1>Meu primeiro cabeçalho</h1>
+<p>Meu primeiro <br>parágrafo</p>
+</body>
+</html>
+
+
+
+
+Atividade do Projeto do Site de Delivery - Parte V: Criando Links para outras páginas
+
+
+Exercio:
+
+Nesta atividade, vamos utilizar a tag a e o atributo href para criar em nossa index 6 links:
+
+Home	Contato	Quem somos	Trabalhe Conosco	Registrar	Entrar
+
+Esses links devem levar o usuário para essas páginas descritas acima que você deve criar e já colocar em cada uma delas o código HTML básico.
