@@ -4,7 +4,7 @@
 
  Este projeto esta sendo desenvolvido a partir de conhecimentos adquiridos nas aulas ministradas pela PRODABEL.
  Encontros via LIVE de 1:30h todas as sextas-feiras.
- Demais aulas na plataforma da PRODABEL. 
+ As demais aulas estão na plataforma da PRODABEL. 
  
  ## Conteúdo do projeto:
  - Uma pasta contendo arquivos tipo TXT com os exercícios.

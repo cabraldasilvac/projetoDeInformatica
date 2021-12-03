@@ -1,8 +1,9 @@
-let readlineSync = require('readline-sync');
+// CALCULADOR EM JS
+var readlineSync = require('readline-sync');
 
-let a = parseInt(readlineSync.question("Digite o valor 1: "));
-let b = parseInt(readlineSync.question("Digite o valor 2: "));
-let cal = readlineSync.question("Digite uma opção: ");
+var a = parseInt(readlineSync.question("Digite o valor 1: "));
+var b = parseInt(readlineSync.question("Digite o valor 2: "));
+var cal = readlineSync.question("Digite uma opção: ");
 
 switch (cal) {
     case "+":
