@@ -1,9 +1,9 @@
 # Projeto De Informatica
 
- Iniciando os estudos em HTML, CSS, JAVASCRIPT e PHP.
+ Iniciando os estudos em HTML, CSS, JAVASCRIPT, C#,  PHP e DB MySQL.
 
  Este projeto esta sendo desenvolvido a partir de conhecimentos adquiridos nas aulas ministradas pela PRODABEL.
- Encontros via LIVE de 1:30h todas as sextas-feiras.
+ Encontros via LIVE de 1h30min todas as sextas-feiras.
  As demais aulas estão na plataforma da PRODABEL. 
  
  ## Conteúdo do projeto:
